@@ -126,14 +126,15 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:backgroundTint="#FFFF0000"
-        android:text="Оформить заказ"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="-70dp"
         android:layout_marginRight="20dp"
+        android:backgroundTint="#FFFF0000"
+        android:onClick="OnArrange"
+        android:text="Оформить заказ"
         android:textAllCaps="true"
-        app:layout_constraintTop_toBottomOf="parent"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintTop_toBottomOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
